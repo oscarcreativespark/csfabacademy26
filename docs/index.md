@@ -16,8 +16,11 @@ Together with the Creative Spark [Print Studio](https://creativespark.ie/print-s
 
 ## Our 2026 Students
 
-- [Shaaz Ahmed](https://fabacademy.org/2026/labs/creativespark/students/shaaz-ahmed/)
-- [Gerard Walsh](https://fabacademy.org/2026/labs/creativespark/students/gerard-walsh/)
+### [Shaaz Ahmed](https://fabacademy.org/2026/labs/creativespark/students/shaaz-ahmed/)
+
+![Ger's Portrait](./images/about/ger.jpg){width="50%"}
+
+#### [Gerard Walsh](https://fabacademy.org/2026/labs/creativespark/students/gerard-walsh/)
 
 ---
 
