@@ -7,70 +7,70 @@ copyright: Copyright 2025 Creative Spark - Creative Commons Attribution Non Comm
 site_url: https://fabacademy.org/2026/labs/creativespark/
 
 extra:
-    # Set your own social media below (or remove)
-    social:
-        # For other social icons at https://squidfunk.github.io/mkdocs-material/setup/adding-social-links/
-        - icon: fontawesome/brands/instagram
-          link: https://instagram.com/fabacademany
-        - icon: fontawesome/brands/facebook
-          link: https://facebook.com/fabacademany
-        - icon: fontawesome/brands/twitter
-          link: https://twitter.com/fabacademany
-        - icon: fontawesome/brands/linkedin
-          link: "https://linkedin.com/in/academany"
+  # Set your own social media below (or remove)
+  social:
+    # For other social icons at https://squidfunk.github.io/mkdocs-material/setup/adding-social-links/
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/fabacademany
+    - icon: fontawesome/brands/facebook
+      link: https://facebook.com/fabacademany
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/fabacademany
+    - icon: fontawesome/brands/linkedin
+      link: "https://linkedin.com/in/academany"
 
 theme:
-    name: dracula
-    # palette:
-    #   # try other colors https://squidfunk.github.io/mkdocs-material/getting-started/#primary-colors
-    #   primary: deep
-    #   accent: indigo
-    # font:
-    #   # See available fonts at https://fonts.google.com/
-    #   text: Ubuntu
-    #   code: Ubuntu Mono
-    # icon:
-    #   logo: material/school
-    # favicon: images/favicon.svg
-    # features:
-    #   - navigation.tabs
-    #   - navigation.instant
+  name: dracula
+  # palette:
+  #   # try other colors https://squidfunk.github.io/mkdocs-material/getting-started/#primary-colors
+  #   primary: deep
+  #   accent: indigo
+  # font:
+  #   # See available fonts at https://fonts.google.com/
+  #   text: Ubuntu
+  #   code: Ubuntu Mono
+  # icon:
+  #   logo: material/school
+  # favicon: images/favicon.svg
+  # features:
+  #   - navigation.tabs
+  #   - navigation.instant
 
 nav:
-    - Home: index.md
-    - Assignments:
-          - "Week 1 - Principles and practices ": assignments/week01.md
-          # - "Week 2 - Computer-Aided Design": assignments/week02.md
-          # - "Week 3 - Computer Controlled Cutting": assignments/week03.md
-          # - "Week 4 - Embedded Programming": assignments/week04.md
-          # - "Week 5 - 3D printing and Scanning": assignments/week05.md
-          # - "Week 6 - Electronics Design": assignments/week06.md
-          # - "Week 7 - Make Something Big": assignments/week07.md
-          # - "Week 8 - Electronics Production": assignments/week08.md
-          # - "Week 9 - Input Devices": assignments/week09.md
-          # - "Week 10 - Output Devices": assignments/week10.md
-          # - "Week 11 - Networking and Communications": assignments/week11.md
-          # - "Week 12 - Machine design": assignments/week12.md
-          # - "Week 13 - Moulding and Casting": assignments/week13.md
-          # - "Week 14 - Interface and Application Programming": assignments/week14.md
-          # - "Week 15 - System Integration": assignments/week15.md
-          # - "Week 16 - Wildcard week (Digital Embroidery)": assignments/week16.md
-          # - "Week 17 - Applications and Implications": assignments/week17.md
-          # - "Week 18 - Invention, Intellectual Property and Income": assignments/week18.md
-          # - "Presentation": final_project/fp_presentation.md
+  - Home: index.md
+  - Group Assignments:
+      # - "Week 1 - Principles and practices ": assignments/week01.md
+      # - "Week 2 - Computer-Aided Design": assignments/week02.md
+      - "Week 3 - Computer Controlled Cutting": assignments/week03.md
+      # - "Week 4 - Embedded Programming": assignments/week04.md
+      # - "Week 5 - 3D printing and Scanning": assignments/week05.md
+      # - "Week 6 - Electronics Design": assignments/week06.md
+      # - "Week 7 - Make Something Big": assignments/week07.md
+      # - "Week 8 - Electronics Production": assignments/week08.md
+      # - "Week 9 - Input Devices": assignments/week09.md
+      # - "Week 10 - Output Devices": assignments/week10.md
+      # - "Week 11 - Networking and Communications": assignments/week11.md
+      # - "Week 12 - Machine design": assignments/week12.md
+      # - "Week 13 - Moulding and Casting": assignments/week13.md
+      # - "Week 14 - Interface and Application Programming": assignments/week14.md
+      # - "Week 15 - System Integration": assignments/week15.md
+      # - "Week 16 - Wildcard week (Digital Embroidery)": assignments/week16.md
+      # - "Week 17 - Applications and Implications": assignments/week17.md
+      # - "Week 18 - Invention, Intellectual Property and Income": assignments/week18.md
+      # - "Presentation": final_project/fp_presentation.md
 
 plugins:
-    - search
-    # - git-revision-date-localized:
-    #       fallback_to_build_date: true
-    #       # Read more: https://timvink.github.io/mkdocs-git-revision-date-localized-plugin/options/#enabled
-    #       enabled: !ENV [ENABLED_GIT_REVISION_DATE, False]
+  - search
+  # - git-revision-date-localized:
+  #       fallback_to_build_date: true
+  #       # Read more: https://timvink.github.io/mkdocs-git-revision-date-localized-plugin/options/#enabled
+  #       enabled: !ENV [ENABLED_GIT_REVISION_DATE, False]
 
 markdown_extensions:
-    - extra
-    - smarty
-    - admonition
-    - codehilite:
-          guess_lang: false
-    - toc:
-          permalink: true
+  - extra
+  - smarty
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true

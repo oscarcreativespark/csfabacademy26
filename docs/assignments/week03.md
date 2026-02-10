@@ -2,60 +2,64 @@
 
 This week I worked on defining my final project idea and started to getting used to the documentation process.
 
-## Research
+## Assignment
 
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-
-> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-
-## Useful links
-
-- [Jekyll](http://jekyll.org)
-- [Google](http://google.com)
-- [Markdown](https://en.wikipedia.org/wiki/Markdown)
-
-## Code Example
-
-Use the three backticks to separate code.
-
-```
-// the setup function runs once when you press reset or power the board
-void setup() {
-  // initialize digital pin LED_BUILTIN as an output.
-  pinMode(LED_BUILTIN, OUTPUT);
-}
-
-// the loop function runs over and over again forever
-void loop() {
-  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(1000);                       // wait for a second
-  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
-  delay(1000);                       // wait for a second
-}
-```
-
-## Gallery
-
-![](../images/sample-photo.jpg)
-
-## Video
-
-### From Vimeo
-
-<iframe src="https://player.vimeo.com/video/10048961" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-<p><a href="https://vimeo.com/10048961">Sound Waves</a> from <a href="https://vimeo.com/radarboy">George Gally (Radarboy)</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-
-### From Youtube
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jjNgJFemlC4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-## 3D Models
-
-<div class="sketchfab-embed-wrapper"><iframe width="640" height="480" src="https://sketchfab.com/models/658c8f8a2f3042c3ad7bdedd83f1c915/embed" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-<p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
-    <a href="https://sketchfab.com/models/658c8f8a2f3042c3ad7bdedd83f1c915?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Dita&#39;s Gown</a>
-    by <a href="https://sketchfab.com/francisbitontistudio?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Francis Bitonti Studio</a>
-    on <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a>
-</p>
+<div style="border-radius: 5px; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); padding: 8px 16px; background-color: lightblue;">
+    <h2>Assignment</h2>
+    <br>
+    <br>
+    <h4>Computer-Controlled Cutting</h4>
+    <ul>
+        <li>Group assignment:</li>
+        <li>
+            <ul>
+                <li>Do your lab's safety training</li>
+                <li>Characterize your lasercutter's focus, power, speed, rate, kerf, joint clearance and types.</li>
+                <li>Document your work to the group work page and reflect on your individual page what you learned.</li>
+            </ul>
+        </li>
+        <li>Individual assignments:</li>
+        <li>
+            <ul>
+                <li>Design, lasercut, and document a parametric construction kit, accounting for the lasercutter kerf.</li>
+                <li>Cut something on the vinyl cutter.</li>
+            </ul>
+        </li>
+    </ul>
+    <br>
+    <p>From <a href="https://fabacademy.org/2026/nueval/computer-controlled_cutting">Assignment Details</a></p>
 </div>
+<br>
+<br>
+
+## Sections
+
+- Laser Cutter Characterisations,
+  - [Epilog Fusion PRO](#epilog-fusion-pro)
+  - [Epilog Zing](#epilog-zing)
+  - [Flux Beamo](#flux-beamo)
+  - [XTool F2 Ultra](#xtool)
+- [Individual Assignments](#individual-tests)
+
+## Laser Cutter Characterisations
+
+### Epilog Fusion PRO{#epilog-fusion-pro}
+
+<ul>
+    <li><b>Focus:</b> 2" Lens</li>
+    <li><b>Power:</b> 80W</li>
+    <li><b>Speed:</b> Max. processing speed: 4.32 m/s. The software presents each material speed as a <code>%</code> of this value.</li>
+    <li><b>Rate:</b> 1-60 kHz, depending on the settings for that particular material. Timber and Card are at the lower end, and plastics like Acrylic seem to be at the higher end.</li>
+    <li><b>Kerf:</b> 0.4mm</li>
+    <li><b>Joint Clearance:</b> 0.2mm</li>
+    <li><b>Type:</b> CO<sub>2</sub></li>
+</ul>
+
+### Epilog Zing{#epilog-zing}
+### Flux Beamo{#flux-beamo}
+### XTool F2 Ultra{#xtool}
+
+## 2. Individual Assignments (Continued) {#individual-tests}
+
+- [Shaaz](https://fabacademy.org/2026/labs/creativespark/students/shaaz-ahmed/)
+- [Ger](https://fabacademy.org/2026/labs/creativespark/students/gerard-walsh/assignments/week3/)
