@@ -1,6 +1,6 @@
 # 4. Embedded Programming
 
-![](../images/week03/w03-001.jpg){width="100%"}
+![](../images/week04/w04-001.jpg){width="100%"}
 
 <aside>
 💡 Group assignment:
