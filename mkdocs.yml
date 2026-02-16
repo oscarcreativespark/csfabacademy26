@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Replace the text below to customize your site
 site_name: Creative Spark - Fab Academy
 site_description: Fab Academy documentation site for Creative Spark Node
@@ -74,3 +75,22 @@ markdown_extensions:
       guess_lang: false
   - toc:
       permalink: true
+=======
+site_name: Fab Academy Creative Spark
+
+nav:
+  - Home: index.md
+  - Computer Controlled Cutting: computercontrolledcutting.md
+
+theme:
+  name: terminal
+  palette: gruvbox_dark
+
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.0/highlight.min.js
+  - https://unpkg.com/highlightjs-cobol/dist/cobol.min.js
+  - add_hljs_highlight.js
+
+extra_css:
+  - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.0/styles/a11y-dark.min.css
+>>>>>>> 048a2a041b4e81d39ae9de86aedb64d96acb73ca

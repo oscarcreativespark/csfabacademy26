@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Welcome to your new Fab Academy site
 
 Visit [fabacademy.org](https://fabacademy.org/) for class and other information.
@@ -44,3 +45,8 @@ Do not forget to configure your local git environment, with same details used on
 git config user.name "You Name"
 git config user.email "you@example.org"
 ```
+=======
+This is the Creative Spark Enterprise FabLab node site
+
+Follow this link https://fabacademy.org/2025/labs/creativespark/
+>>>>>>> 048a2a041b4e81d39ae9de86aedb64d96acb73ca
