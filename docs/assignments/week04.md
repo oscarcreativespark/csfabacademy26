@@ -1,7 +1,8 @@
 # 4. Embedded Programming
 
 <aside>
-💡 Group assignment
+💡 Group assignment:
+
 - demonstrate and compare the toolchains and development workflows for available embedded architectures
 </aside>
 

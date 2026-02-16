@@ -1,7 +1,7 @@
 # 3. Computer Controlled Cutting
 
 <aside>
-💡 Group assignment
+💡 Group assignment:
 
 - Complete your lab’s safety training
 - Test runout, alignment, fixturing, speeds, feeds, materials and toolpaths for your machine
