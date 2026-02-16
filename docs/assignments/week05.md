@@ -1,5 +1,7 @@
 # 5. 3D Scanning and Printing
 
+![](../images/week05/w05-001.jpg){width="100%"}
+
 <aside>
 💡 Group assignment:
 

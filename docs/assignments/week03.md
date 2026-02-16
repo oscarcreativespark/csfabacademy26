@@ -1,5 +1,7 @@
 # 3. Computer Controlled Cutting
 
+![](../images/week03/w03-001.jpg){width="100%"}
+
 <aside>
 💡 Group assignment:
 

@@ -1,5 +1,7 @@
 # 2. Computer Aided design
 
+![](../images/week02/w02-001.jpg){width="100%"}
+
 This week I worked on defining my final project idea and started to getting used to the documentation process.
 
 ## Assignment
