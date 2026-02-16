@@ -1,11 +1,8 @@
-# Computer Controlled Cutting
+# 4. Embedded Programming
 
 <aside>
 💡 Group assignment
-
-- Complete your lab’s safety training
-- Test runout, alignment, fixturing, speeds, feeds, materials and toolpaths for your machine
-- Document your work to the group work page and reflect on your individual page what you learned
+- demonstrate and compare the toolchains and development workflows for available embedded architectures
 </aside>
 
 ---
