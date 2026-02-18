@@ -25,7 +25,7 @@
 
 ## Equipment
 
-* **Seeed Studio Xiao ESP32-C3 board** and **Seeed Studio Xiao RP2040 board**
+* **Seeed Studio Xiao ESP32-C3 board** (Ger) and **Seeed Studio Xiao RP2040 board** (Shaaz)
 * Laptop
 * USB Adapter and Cable
 * Electronics for demo (LED, 330 ohm Resistor, Breadboard, Jumpers)
@@ -60,12 +60,20 @@
 > **Findings:** [What did you learn from the process?]
 > 
 
-Learned about electronics and code. Used the Datasheet to learn the capabilities of the board, in particular, the functions of GPIO's on the board. The SoC board is a breakout of the functionality of the chips (ESP32 and RP2040). The board adds UART, voltage regulation, Analog-to-Digital conversion and digital inputs, and makes it very compatible for new users, and allows new users to use with breadboards and a number of other compatible shields (Grove and other expansion boards on the Seeed Studio website). The
+Learned about electronics and code. Used the Datasheet to learn the capabilities of the board, in particular, the functions of GPIO's on the board. The SoC board is a breakout of the functionality of the chips (ESP32 and RP2040). The board adds UART, voltage regulation, Analog-to-Digital conversion and digital inputs, and makes it very compatible for new users, and allows new users to use with breadboards and a number of other compatible shields (Grove and other expansion boards on the Seeed Studio website).
+
+Types of Pins:
+* Digital
+* Analogue
+* PWM
+* RXTX
+* POWER (eg VCC, 3v3, GND and AREF)
+* I2C, SPI, JTAG. Protocols for addressing peripherals, sensors, 
 
 > **Challenges:** [What issues did you encounter?]
-> 
 
 1. The boards library didn't load as expected.
+2. Breadboard problems. Connections won't survive to much movement. Connections are unreliable, fail in way that is not visibly evident, which may interrupt more complex connections.
 
 > **Solutions:** [How did you solve them?]
 > 
@@ -79,3 +87,4 @@ Learned about electronics and code. Used the Datasheet to learn the capabilities
 See below link to to files created this week:
 
 * [sketch_ger_feb17a.ino](../../files/week04/sketch_ger_feb17a.ino)
+* [sketch_ger_feb18a_sequence.ino](../../files/week04/sketch_ger_feb18a_sequence.ino)

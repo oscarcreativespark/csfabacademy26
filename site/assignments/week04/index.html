@@ -107,7 +107,7 @@
 <h1 id="tools-and-materials-used">Tools and materials used<a class="headerlink" href="#tools-and-materials-used" title="Permanent link">&para;</a></h1>
 <h2 id="equipment">Equipment<a class="headerlink" href="#equipment" title="Permanent link">&para;</a></h2>
 <ul>
-<li><strong>Seeed Studio Xiao ESP32-C3 board</strong> and <strong>Seeed Studio Xiao RP2040 board</strong></li>
+<li><strong>Seeed Studio Xiao ESP32-C3 board</strong> (Ger) and <strong>Seeed Studio Xiao RP2040 board</strong> (Shaaz)</li>
 <li>Laptop</li>
 <li>USB Adapter and Cable</li>
 <li>Electronics for demo (LED, 330 ohm Resistor, Breadboard, Jumpers)</li>
@@ -141,13 +141,20 @@
 <p><strong>Findings:</strong> [What did you learn from the process?]
 </p>
 </blockquote>
-<p>Learned about electronics and code. Used the Datasheet to learn the capabilities of the board, in particular, the functions of GPIO&rsquo;s on the board. The SoC board is a breakout of the functionality of the chips (ESP32 and RP2040). The board adds UART, voltage regulation, Analog-to-Digital conversion and digital inputs, and makes it very compatible for new users, and allows new users to use with breadboards and a number of other compatible shields (Grove and other expansion boards on the Seeed Studio website). The</p>
+<p>Learned about electronics and code. Used the Datasheet to learn the capabilities of the board, in particular, the functions of GPIO&rsquo;s on the board. The SoC board is a breakout of the functionality of the chips (ESP32 and RP2040). The board adds UART, voltage regulation, Analog-to-Digital conversion and digital inputs, and makes it very compatible for new users, and allows new users to use with breadboards and a number of other compatible shields (Grove and other expansion boards on the Seeed Studio website).</p>
+<p>Types of Pins:
+* Digital
+* Analogue
+* PWM
+* RXTX
+* POWER (eg VCC, 3v3, GND and AREF)
+* I2C, SPI, JTAG. Protocols for addressing peripherals, sensors, </p>
 <blockquote>
-<p><strong>Challenges:</strong> [What issues did you encounter?]
-</p>
+<p><strong>Challenges:</strong> [What issues did you encounter?]</p>
 </blockquote>
 <ol>
 <li>The boards library didn&rsquo;t load as expected.</li>
+<li>Breadboard problems. Connections won&rsquo;t survive to much movement. Connections are unreliable, fail in way that is not visibly evident, which may interrupt more complex connections.</li>
 </ol>
 <blockquote>
 <p><strong>Solutions:</strong> [How did you solve them?]
@@ -161,6 +168,7 @@
 <p>See below link to to files created this week:</p>
 <ul>
 <li><a href="../../files/week04/sketch_ger_feb17a.ino">sketch_ger_feb17a.ino</a></li>
+<li><a href="../../files/week04/sketch_ger_feb18a_sequence.ino">sketch_ger_feb18a_sequence.ino</a></li>
 </ul>
 
 <ul class="metadata page-metadata" data-bi-name="page info" lang="en-us" dir="ltr">
