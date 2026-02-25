@@ -43,7 +43,7 @@ nav:
       # - "Week 2 - Computer-Aided Design": assignments/week02.md
       # - "Week 3 - Computer Controlled Cutting": assignments/week03.md
       - "Week 4 - Embedded Programming": assignments/week04.md
-      # - "Week 5 - 3D printing and Scanning": assignments/week05.md
+      - "Week 5 - 3D printing and Scanning": assignments/week05.md
       # - "Week 6 - Electronics Design": assignments/week06.md
       # - "Week 7 - Make Something Big": assignments/week07.md
       # - "Week 8 - Electronics Production": assignments/week08.md
