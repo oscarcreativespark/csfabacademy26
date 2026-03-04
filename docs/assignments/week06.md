@@ -1,61 +1,113 @@
-# 6. 3D Scanning and printing
+# 6. Electronics Design
 
-This week I worked on defining my final project idea and started to getting used to the documentation process.
+<aside>
+💡 Group assignment:
 
-## Research
+- use the test equipment in your lab to observe the operation of a microcontroller circuit board
+</aside>
 
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+---
 
-> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+# About this week
 
-## Useful links
+> *Briefly describe the goal of the assignment. What are you characterizing, testing, or exploring*
+>
 
-- [Jekyll](http://jekyll.org)
-- [Google](http://google.com)
-- [Markdown](https://en.wikipedia.org/wiki/Markdown)
+**Ger:** *(to be added)*
 
-## Code Example
+**Shaaz:** Used the Multicomp PRO MP720780 handheld oscilloscope/multimeter to observe the output of an RP2040-based circuit that blinks three LEDs in succession. Measured the voltage on an LED output pin using both voltmeter and oscilloscope modes.
 
-Use the three backticks to separate code.
+---
 
-```
-// the setup function runs once when you press reset or power the board
-void setup() {
-  // initialize digital pin LED_BUILTIN as an output.
-  pinMode(LED_BUILTIN, OUTPUT);
-}
+# Tools and materials used
 
-// the loop function runs over and over again forever
-void loop() {
-  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(1000);                       // wait for a second
-  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
-  delay(1000);                       // wait for a second
-}
-```
+> *List all the machines, software and materials used in this assignment.*
+>
 
-## Gallery
+### Ger: Tools and Materials
 
-![](../images/sample-photo.jpg)
+*(to be added)*
 
-## Video
+### Shaaz: Tools and Materials
+* Multicomp PRO MP720780 handheld oscilloscope/multimeter
+* RP2040-based circuit board (LED blink program)
+* Probes (positive on RP2040 output pin, negative on ground)
 
-### From Vimeo
+---
 
-<iframe src="https://player.vimeo.com/video/10048961" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-<p><a href="https://vimeo.com/10048961">Sound Waves</a> from <a href="https://vimeo.com/radarboy">George Gally (Radarboy)</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+# Process and methodology
 
-### From Youtube
+> Describe step-by-step what the group did. Include sketches, screenshots, or videos if possible.
+>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jjNgJFemlC4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+### Ger:
 
-## 3D Models
+*(to be added)*
 
-<div class="sketchfab-embed-wrapper"><iframe width="640" height="480" src="https://sketchfab.com/models/658c8f8a2f3042c3ad7bdedd83f1c915/embed" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+### Shaaz: Voltmeter and Oscilloscope Measurements
 
-<p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
-    <a href="https://sketchfab.com/models/658c8f8a2f3042c3ad7bdedd83f1c915?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Dita&#39;s Gown</a>
-    by <a href="https://sketchfab.com/francisbitontistudio?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Francis Bitonti Studio</a>
-    on <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a>
-</p>
-</div>
+**Voltmeter (DCV mode):** Measured the voltage across an LED output pin on the RP2040 circuit.
+
+When the LED was on, the voltmeter read approximately **1.3V DC** on the 2V range — this is the voltage drop across the LED:
+
+![Voltmeter reading approximately 1.3V DC when the LED is on](../images/week06/shaaz-1-voltmeter-reading-1.3V-led-on.webp)
+
+When the LED was off, the reading dropped to **0V** as expected, confirming the RP2040 output pin was low:
+
+![Voltmeter reading 0V when the LED is off](../images/week06/shaaz-2-voltmeter-reading-0V-led-off.webp)
+
+**Oscilloscope mode:** Switched to oscilloscope mode to try to capture the blinking waveform on the same LED output pin.
+
+Initially got a flat line at 500µs time base — far too fast to see the slow LED blink cycle:
+
+![Oscilloscope showing a flat line at 500µs time base](../images/week06/shaaz-3-oscilloscope-flat-line-500us-timebase.webp)
+
+Explored the different settings. The status bar shows channel scales (200mV, 100mV) and sample rate of 250Sa/s:
+
+![Oscilloscope status bar showing 250Sa/s sample rate](../images/week06/shaaz-4-oscilloscope-sample-rate-250sa.webp)
+
+Tried AC coupling with 10X probe:
+
+![CH1 settings — AC coupling, 10X probe](../images/week06/shaaz-5-oscilloscope-ch1-coupling-ac-probe-10x.webp)
+
+Switched to DC coupling with 1X probe, more appropriate for a DC on/off signal:
+
+![CH1 settings — DC coupling, 1X probe](../images/week06/shaaz-6-oscilloscope-ch1-coupling-dc-probe-1x.webp)
+
+Tried single trigger type to capture a single on/off transition:
+
+![CH1 settings — DC coupling, single trigger](../images/week06/shaaz-7-oscilloscope-ch1-coupling-dc-type-single.webp)
+
+The oscilloscope with probes connected showing some activity, but no clean square wave captured during this session:
+
+![Oscilloscope with probes connected showing signal activity](../images/week06/shaaz-8-oscilloscope-probes-connected-signal-display.webp)
+
+**Key takeaway:** The voltmeter confirmed the expected 1.3V/0V output. The oscilloscope time base (500µs default) was too fast to capture the slow LED blink cycle — a much longer time base (seconds, not microseconds) would be needed. This is something to revisit with a faster-switching signal or correct time base settings.
+
+---
+
+# Group conclusions
+
+**Findings:**
+
+- **Ger:** *(to be added)*
+- **Shaaz:** Voltmeter mode reliably confirmed the LED output voltage (1.3V on, 0V off). The handheld oscilloscope's default time base settings are tuned for faster signals and need significant adjustment for slow blink patterns.
+
+**Challenges:**
+
+- **Ger:** *(to be added)*
+- **Shaaz:** Could not capture a clean square wave on the oscilloscope — the LED blink period was much longer than the 500µs default time base.
+
+**Solutions:**
+
+- **Ger:** *(to be added)*
+- **Shaaz:** Would need to set the horizontal time base to seconds rather than microseconds, or use a faster-switching test signal.
+
+---
+
+# Files
+
+> Add all files created for this group assignment
+>
+
+See below link to files created this week:
