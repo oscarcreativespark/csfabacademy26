@@ -3,9 +3,10 @@
 ![](../images/week04/w04-001.jpg){width="100%"}
 
 <aside>
-💡 Group assignment:
-
-- demonstrate and compare the toolchains and development workflows for available embedded architectures
+<ul> 💡 Group assignment:
+    <li>Demonstrate and compare the toolchains and development workflows for available embedded architectures</li>
+</ul>
+<p>From <a href="https://fabacademy.org/2026/nueval/embedded_programming">Assignment Details</a></p>
 </aside>
 
 ---
@@ -24,7 +25,8 @@
 # Tools and materials used
 
 ## 1. Ger: ESP32-C3 + Arduino IDE
-### Equipment
+
+### Hardware
 
 * **Seeed Studio Xiao ESP32-C3 board** (Ger) 
 * Laptop
@@ -74,14 +76,40 @@ The headers and the debug interface pre-soldered make it convenient for prototyp
 
 ## 1. Ger: ESP32-C3 + Arduino IDE
 
+### Basic Workflow
+
 1. Install **Arduino IDE**.
 2. Try install **ESP32 Board**... first install **Board Package Repository**.
 3. Fails on Timeout...(See [Fix 2](#fix-2-extend-board-manager-timeout))
-  1. Install `Arduino-CLI`,
-  2. Edit YAML preferences,
-  3. Retry install **Board Package Repository**.
+    1. Install `Arduino-CLI`,
+    2. Edit YAML preferences,
+    3. Retry install **Board Package Repository**.
 4. Install Board Package, and select port and Board (**XIAO_ESP32C3** in this case)
-5. Use sample code from Wiki (changed GPIO)
+5. Use sample code from [Wiki](https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started/#run-your-first-blink-program) (a number of changes, incl. GPIO)
+
+I have used 
+
+### Fix 1: Different Chip Driver?
+
+Download and install the `CH340G` driver.
+
+Followed <a href="https://wiki.dfrobot.com/#Tutorial">this tutorial</a> (from the DFRobot wiki) or <a href="https://sparks.gogo.co.nz/ch340.html">this tutorial</a> (from SparkFun, more general), downloaded and installed the driver.
+
+### Fix 2: Different Board Definitions
+
+Use generic ESP32 board definitions. `ESP32 Dev Module` or the one from Espressif should be fine.
+
+### Fix 3: Use Platformio instead
+
+Probably would work, but didn't try it this time. Using this workflow probably avoids the issue with the Arduino IDE workflow.
+
+PlatformIO is an alternative _development environment_ for microcontrollers that is more recent. It is more advanced, but may be more likely to get your ESP32 board working. PlatformIO runs inside VS Code and works on macOS, Windows, and Linux. Try this <a href="https://youtu.be/WxELHnnlBmU">10 minute tutorial</a> and <a href="https://youtu.be/xrAgUXFdrs8">easier 4 min tutorial</a>
+
+### Fix 4: Extend the timeout to allow the download more time to complete.
+
+Described more in my [individual write-up](https://fabacademy.org/2026/labs/creativespark/students/gerard-walsh/assignments/week4/#fix-2-extend-board-manager-timeout)
+
+> The Custom Boards package is hosted on a CDN that wasn't fast enough. The default timeout seems to be `300s`. Based on [this post](https://forum.arduino.cc/t/downloading-esp32-3-3-5-fails/1420739/7) by user [@ptillisch](https://forum.arduino.cc/u/ptillisch), it describes how to extend the timeout and allow more time to complete.
 
 ---
 
@@ -684,13 +712,13 @@ I wanted to run Rust on the RP2040, and this didn't seem to be supported by the 
 
 > **Challenges:** [What issues did you encounter?]
 
-1. The boards library didn't load as expected.
-2. Breadboard problems. Connections won't survive to much movement. Connections are unreliable, fail in way that is not visibly evident, which may interrupt more complex connections.
+1. **Ger:** The boards library didn't load as expected.
+2. **Ger:** Breadboard problems. Connections won't survive to much movement. Connections are unreliable, fail in way that is not visibly evident, which may interrupt more complex connections.
 
 > **Solutions:** [How did you solve them?]
-> 
 
-1. Extended the IDE timeout to allow board manager to download from the host.
+1. **Ger:** Extended the IDE timeout to allow board manager to download from the host. Evaluated a number of different options. Installing CHG driver wasn't required, eventually had to extend to setting for IDE Timeout.
+2. **Ger:** Will fix with custom PCB pad connections in [Electronics Production](#)...
 
 ---
 

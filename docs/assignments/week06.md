@@ -1,12 +1,12 @@
-<<<<<<< HEAD
-# 6. 3D Scanning and printing
-=======
 # 6. Electronics Design
 
-<aside>
-💡 Group assignment:
+![](../images/week05/w06-001.jpg){width="100%"}
 
-- use the test equipment in your lab to observe the operation of a microcontroller circuit board
+<aside>
+<ul> 💡 Group assignment:
+    <li>Use the test equipment in your lab to observe the operation of a microcontroller circuit board</li>
+</ul>
+<p>From <a href="https://fabacademy.org/2026/nueval/electronics_design">Assignment Details</a></p>
 </aside>
 
 ---
@@ -110,8 +110,4 @@ The oscilloscope with probes connected showing some activity, but no clean squar
 
 # Files
 
-> Add all files created for this group assignment
->
-
 See below link to files created this week:
->>>>>>> 6bca1b6116a59710aa2f2862644061baf972a077

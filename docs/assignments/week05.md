@@ -3,9 +3,10 @@
 ![](../images/week05/w05-001.jpg){width="100%"}
 
 <aside>
-💡 Group assignment:
-
--  test the design rules for your 3D printer(s)
+<ul> 💡 Group assignment:
+    <li>Test the design rules for your 3D printer(s)</li>
+</ul>
+<p>From <a href="https://fabacademy.org/2026/nueval/3d_scanning_and_printing">Assignment Details</a></p>
 </aside>
 
 ---
