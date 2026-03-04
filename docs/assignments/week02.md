@@ -4,35 +4,22 @@
 
 This week I worked on defining my final project idea and started to getting used to the documentation process.
 
-## Assignment
+---
 
-<div style="border-radius: 5px; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); padding: 8px 16px; background-color: lightblue;">
-    <h2>Assignment</h2>
-    <br>
-    <br>
-    <h4>Computer-Controlled Cutting</h4>
-    <ul>
-        <li>Group assignment:</li>
-        <li>
-            <ul>
-                <li>Do your lab's safety training</li>
-                <li>Characterize your lasercutter's focus, power, speed, rate, kerf, joint clearance and types.</li>
-                <li>Document your work to the group work page and reflect on your individual page what you learned.</li>
-            </ul>
-        </li>
-        <li>Individual assignments:</li>
-        <li>
-            <ul>
-                <li>Design, lasercut, and document a parametric construction kit, accounting for the lasercutter kerf.</li>
-                <li>Cut something on the vinyl cutter.</li>
-            </ul>
-        </li>
-    </ul>
-    <br>
-    <p>From <a href="https://fabacademy.org/2026/nueval/computer-controlled_cutting">Assignment Details</a></p>
-</div>
-<br>
-<br>
+## Assignment - Computer-Controlled Cutting
+
+* Group assignment:
+    * Do your lab's safety training
+    * Characterize your lasercutter's focus, power, speed, rate, kerf, joint clearance and types.
+    * Document your work to the group work page and reflect on your individual page what you learned.
+
+* Individual assignments:
+    * Design, lasercut, and document a parametric construction kit, accounting for the lasercutter kerf.
+    * Cut something on the vinyl cutter.
+
+From [Assignment Details](https://fabacademy.org/2026/nueval/computer-controlled_cutting).
+
+---
 
 ## Sections
 
