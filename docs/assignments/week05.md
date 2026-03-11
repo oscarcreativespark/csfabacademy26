@@ -40,9 +40,9 @@ Shaaz:
 ### Ger: Tools and Materials
 * Laptop, 
     * Rhino, Grasshopper, [Ginger Slicer](https://www.gingeradditive.com/pages/downloads)
-    * USB to transfer
+    * USB, to transfer
 * UltiMaker S5
-    * FormFutura PLA (2.85mm)
+    * FormFutura PLA, White (2.85mm)
 * Ginger G1 system
     * rPLA Pellets
 * Measuring devices
@@ -64,12 +64,14 @@ Shaaz:
 
 ### Ger:
 
-* Drew in Rhino3D, and went from Rhino to DXF for laser cutter part.
+* Drew model in Rhino3D, and went from Rhino to DXF for laser cutter part.
     * Tolerance (height) was too low. Measured acrylic thickness was 3.1mm, and layer-height of 0.15mm. Increased by one layer. Caused "Filament-Stuck" error when too low.
     * Rewrote to Grasshopper to test series of dimensions. And re-wrote for all PLA part.
 * Printed the 3DHubs on the G1. Scaled x2.4.
 * Observed top surface issues on other models. Due to the size, top surfaces drag between infill gaps.
-    * Wrote a grasshopper script to test bridges without volumes (series of wall contours)
+    * Wrote a grasshopper script to test bridges. Instead of volumetric towers, test was of a series of wall contours.
+
+![Bridging Test Ginger on the Ginger G1](../images/week05/ger_bridgingtest_ginger.jpg)
 
 ### Shaaz: Bambu P2S Design Rules
 
@@ -142,3 +144,5 @@ All design rules test pieces printed successfully:
 > 
 
 See below link to to files created this week:
+
+* [Ginger G1 Bridging Test (.GHX)](../files/week05/ger_bridging_ginger.ghx)
