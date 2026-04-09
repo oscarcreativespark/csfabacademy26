@@ -1,4 +1,4 @@
-# 7. Computer-Controlled Machining
+# 7. Computer controlled machining
 
 <aside>
 <ul> 💡 Group assignment:

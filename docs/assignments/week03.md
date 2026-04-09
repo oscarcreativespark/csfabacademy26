@@ -2,93 +2,53 @@
 
 ![](../images/week03/w03-001.jpg){width="100%"}
 
----
-
 <aside>
-<ul> 💡 Group assignment:
-    <li>Do your lab's safety training</li>
-    <li>Characterize your lasercutter's focus, power, speed, rate, kerf, joint clearance and types.</li>
-    <li>Document your work to the group work page and reflect on your individual page what you learned.</li>
-</ul>
-<p>From <a href="https://fabacademy.org/2026/nueval/computer-controlled_cutting">Assignment Details</a></p>
+💡 Group assignment:
+
+- Complete your lab’s safety training
+- Test runout, alignment, fixturing, speeds, feeds, materials and toolpaths for your machine
+- Document your work to the group work page and reflect on your individual page what you learned
 </aside>
 
 ---
 
-# About this week
+## Assignment
 
-> *Briefly describe the goal of the assignment. What are you characterizing, testing, or exploring*
-> 
-
-Ger:
-
-Shaaz:
-
----
-
-# Tools and materials used
-
-> *List all the machines, software and materials used in this assigment.*
-> 
-- TODO
-
----
-
-# Process and methodology
-
-> Describe step-by-step what the group did. Include sketches, screenshots, or videos if possible.
-> 
-
-Type here
-
----
-
-# Group conclusions
-
-> **Findings:** [What did you learn from the process?]
-> 
-
-> **Challenges:** [What issues did you encounter?]
-> 
-
-> **Solutions:** [How did you solve them?]
-> 
-
-Type here
-
----
-
-## 2. Individual Assignments (Continued) {#individual-tests}
-
-- [Shaaz](https://fabacademy.org/2026/labs/creativespark/students/shaaz-ahmed/)
-- [Ger](https://fabacademy.org/2026/labs/creativespark/students/gerard-walsh/assignments/week3/)
-
----
-
-# Files
-
-> Add all files created for this group assignment
-> 
-
-See below link to to files created this week:
-
-
-
-
-
-
-
-
-
----
+<div style="border-radius: 5px; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); padding: 8px 16px; background-color: lightblue;">
+    <h2>Assignment</h2>
+    <br>
+    <br>
+    <h4>Computer-Controlled Cutting</h4>
+    <ul>
+        <li>Group assignment:</li>
+        <li>
+            <ul>
+                <li>Do your lab's safety training</li>
+                <li>Characterize your lasercutter's focus, power, speed, rate, kerf, joint clearance and types.</li>
+                <li>Document your work to the group work page and reflect on your individual page what you learned.</li>
+            </ul>
+        </li>
+        <li>Individual assignments:</li>
+        <li>
+            <ul>
+                <li>Design, lasercut, and document a parametric construction kit, accounting for the lasercutter kerf.</li>
+                <li>Cut something on the vinyl cutter.</li>
+            </ul>
+        </li>
+    </ul>
+    <br>
+    <p>From <a href="https://fabacademy.org/2026/nueval/computer-controlled_cutting">Assignment Details</a></p>
+</div>
+<br>
+<br>
 
 ## Sections
 
 - Laser Cutter Characterisations,
   - [Epilog Fusion PRO](#epilog-fusion-pro)
-  - [Epilog Zing](#)
-  - [Flux Beamo](#)
-  - [XTool F2 Ultra](#)
+  - [Epilog Zing](#epilog-zing)
+  - [Flux Beamo](#flux-beamo)
+  - [XTool F2 Ultra](#xtool)
 - [Individual Assignments](#individual-tests)
 
 ## Laser Cutter Characterisations
@@ -104,3 +64,12 @@ See below link to to files created this week:
     <li><b>Joint Clearance:</b> 0.2mm</li>
     <li><b>Type:</b> CO<sub>2</sub></li>
 </ul>
+
+### Epilog Zing{#epilog-zing}
+### Flux Beamo{#flux-beamo}
+### XTool F2 Ultra{#xtool}
+
+## 2. Individual Assignments (Continued) {#individual-tests}
+
+- [Shaaz](https://fabacademy.org/2026/labs/creativespark/students/shaaz-ahmed/)
+- [Ger](https://fabacademy.org/2026/labs/creativespark/students/gerard-walsh/assignments/week3/)
