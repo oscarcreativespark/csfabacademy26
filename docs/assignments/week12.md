@@ -25,9 +25,7 @@ This week I worked on defining my final project idea and started to getting used
 > *Briefly describe the goal of the assignment. What are you characterizing, testing, or exploring*
 > 
 
-Ger:
-
-Shaaz:
+Ger: 
 
 ---
 
@@ -65,8 +63,7 @@ Type here
 
 ## 2. Individual Assignments (Continued) {#individual-tests}
 
-- [Shaaz](https://fabacademy.org/2026/labs/creativespark/students/shaaz-ahmed/)
-- [Ger](https://fabacademy.org/2026/labs/creativespark/students/gerard-walsh/assignments/week3/)
+- [Ger](https://fabacademy.org/2026/labs/creativespark/students/gerard-walsh/assignments/week12/)
 
 ---
 

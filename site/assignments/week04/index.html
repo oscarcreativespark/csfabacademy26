@@ -1,0 +1,883 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+        <title>Week 4 - Embedded Programming - Creative Spark - Fab Academy</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+        <link rel="canonical" href="https://fabacademy.org/2026/labs/creativespark/assignments/week04/">
+        <meta name="author" content="Creative Spark">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="../../assets/css/darcula-highlight.min.css">
+
+        <link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../assets/css/dracula-ui.min.css">
+        <link rel="stylesheet" href="../../assets/css/mkdocs.min.css">
+
+        
+            <link  rel="icon" type="image/x-icon" href="../../assets/img/favicon.ico">
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+                <script>hljs.initHighlightingOnLoad();</script>
+
+</head>
+
+<body class="drac-bg-black-secondary drac-text-grey-ternary drac-text drac-scrollbar-purple">
+
+    <main class="d-flex">
+
+        <!-- block sidebar -->
+            <nav id="sidebar" class="sidebar drac-bg-black">
+    <div class="custom-menu">
+        <button type="button" id="sidebarCollapse" class="btn btn-primary">
+            <i class="fa fa-bars"></i>
+            <span class="sr-only">Menu</span>
+        </button>
+    </div>
+
+    <div class="p-4">
+        
+
+        <div class="drac-text-center">
+            
+                <span class="drac-text drac-line-height drac-text-white">Creative Spark - Fab Academy</span>
+            
+        </div>
+
+        <div class="drac-box flex-column">
+            <ul class="dot-ul">
+                <li><div class="dot-li drac-bg-cyan"></div></li>
+                <li><div class="dot-li drac-bg-green"></div></li>
+                <li><div class="dot-li drac-bg-orange"></div></li>
+                <li><div class="dot-li drac-bg-pink"></div></li>
+                <li><div class="dot-li drac-bg-purple"></div></li>
+                <li><div class="dot-li drac-bg-red"></div></li>
+                <li><div class="dot-li drac-bg-yellow"></div></li>
+            </ul>
+        </div>
+
+        <hr class="drac-divider" />
+
+        <!-- block menu -->
+        <ul class="mb-5 drac-list drac-list-none">
+            
+            <li class="drac-box">
+                <a href="../.."
+                    class="
+                    drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+                    Home
+                </a>
+            </li>
+            <li class="drac-box">
+                <a href="../week12/"
+                    class="
+                    drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+                    Machine Design Week
+                </a>
+            </li>
+            <li class="drac-box">
+                <a href="../.."
+                    class=" active 
+                    drac-anchor btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+                    data-bs-toggle="collapse" data-bs-target="#assignments-collapse" aria-expanded="false">
+                    Assignments
+                </a>
+                <div class="collapse" id="assignments-collapse">
+                    <ul class="mb-5 drac-list drac-list-none">
+                            
+    <li class="drac-box-ternary">
+        <a href="../week02/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Week 2 - Computer-Aided Design
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../week03/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Week 3 - Computer Controlled Cutting
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="./"
+            class=" active 
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Week 4 - Embedded Programming
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../week05/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Week 5 - 3D printing and Scanning
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../week06/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Week 6 - Electronics Design
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../week07/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Week 7 - Make Something Big
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../week08/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Week 8 - Electronics Production
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../week09/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Week 9 - Input Devices
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../week10/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Week 10 - Output Devices
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../week11/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Week 11 - Networking and Communications
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../week12/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Machine Design Week
+        </a>
+    </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+        <!-- endblock -->
+    </div>
+</nav>
+        <!-- endblock -->
+
+        <nav class="divider drac-bg-purple-cyan"></nav>
+
+        <div class="content">
+            <!-- block header -->
+                <header>
+    <nav class="navbar navbar-expand-xl drac-bg-purple">
+        <div class="container-fluid">
+            
+            <button class="navbar-toggler w-100 text-center" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsMenu"
+                aria-controls="navbarsMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse flex-column ml-auto" id="navbarsMenu">
+                <ul class="navbar-nav text-md-center">
+
+                    <!-- block preview -->
+                    <li class="nav-item">
+                            
+        <div class="container">
+            <div class="row row-preview">
+                <div class="col">
+                    <a href="../week03/"
+                        class="btn-preview drac-btn drac-btn-outline drac-text-white drac-text-cyan-green--hover">
+                        <i class="fa fa-arrow-left"></i> Previous
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="../week05/"
+                        class="btn-preview drac-btn drac-btn-outline drac-text-white drac-text-cyan-green--hover" style="padding-left: 3%;">
+                        Next <i class="fa fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+                    </li>
+                    <!--  endblock -->
+
+                    <!-- block search -->
+                    <li class="nav-item"><div role="search" class="search-box">
+	<form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+		<input type="text" name="q" class="drac-input drac-input-search drac-input-white drac-text-white drac-bg-black-secondary"
+		placeholder="Search docs" title="Type search term here" />
+	</form>
+</div>
+                    </li>
+                    <!--  endblock -->
+
+                    <!-- block source -->
+                    <li class="nav-item">
+                        
+                    </li>
+                    <!--  endblock -->
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+</header>
+            <!-- endblock -->
+
+            <!-- block content -->
+                <section class="p-md-5 section-content">
+    <article>
+        <p><h1 id="4-embedded-programming">4. Embedded Programming<a class="headerlink" href="#4-embedded-programming" title="Permanent link">&para;</a></h1>
+<p><img alt="" src="../../images/week04/w04-001.jpg" width="100%" /></p>
+<aside>
+<ul> 💡 Group assignment:
+    <li>Demonstrate and compare the toolchains and development workflows for available embedded architectures</li>
+</ul>
+<p>From <a href="https://fabacademy.org/2026/nueval/embedded_programming">Assignment Details</a></p>
+</aside>
+
+<hr />
+<h1 id="about-this-week">About this week<a class="headerlink" href="#about-this-week" title="Permanent link">&para;</a></h1>
+<blockquote>
+<p><em>Briefly describe the goal of the assignment. What are you characterizing, testing, or exploring</em>
+</p>
+</blockquote>
+<p><strong>Ger:</strong> The aim is to test a workflow to program an ESP32-C3 board using the Arduino IDE.</p>
+<p><strong>Shaaz:</strong> Test a workflow to run Rust programs on an RP2040 in a Pico dev board.</p>
+<hr />
+<h1 id="tools-and-materials-used">Tools and materials used<a class="headerlink" href="#tools-and-materials-used" title="Permanent link">&para;</a></h1>
+<h2 id="1-ger-esp32-c3-arduino-ide">1. Ger: ESP32-C3 + Arduino IDE<a class="headerlink" href="#1-ger-esp32-c3-arduino-ide" title="Permanent link">&para;</a></h2>
+<h3 id="hardware">Hardware<a class="headerlink" href="#hardware" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Seeed Studio Xiao ESP32-C3 board</strong> (Ger) </li>
+<li>Laptop</li>
+<li>USB Adapter and Cable</li>
+<li>Electronics for demo (LED, 330 ohm Resistor, Breadboard, Jumpers)</li>
+<li>Multimeter (<em>just in case!</em>)</li>
+</ul>
+<h3 id="software">Software<a class="headerlink" href="#software" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Arduino IDE and Arduino-CLI</li>
+<li>Terminal</li>
+<li>Other editors (Nano and Zed)</li>
+</ul>
+<h2 id="2-shaaz-rust-on-pico-rp2040-with-cursor-el2uf2-rs">2. Shaaz: Rust on Pico RP2040 with Cursor &amp; el2uf2-rs<a class="headerlink" href="#2-shaaz-rust-on-pico-rp2040-with-cursor-el2uf2-rs" title="Permanent link">&para;</a></h2>
+<h3 id="hardware_1">Hardware<a class="headerlink" href="#hardware_1" title="Permanent link">&para;</a></h3>
+<p>I took the Raspberry Pi RP2040 microcontroller from the Lab on a Pico H board (the Pico W  apparently has wireless too)</p>
+<p><img alt="RP2040 on a Pico H board" src="../../images/week04/shaaz-rp2040.webp" /></p>
+<p>The microcontroller chip here is the RP2040. The Pico is a development board based on the RP2040, which comes in four variants:
+1. Pico: the RP2040 + 2MB flash
+2. Pico H: Pico + Headers pre-soldered + 3pin debug connector
+3. Pico W: Pico + WiFi &amp; Bluetooth
+4. Pico WH: Pico H + WiFi &amp; Bluetooth</p>
+<p>The headers and the debug interface pre-soldered make it convenient for prototyping using a breadboard. Additionally, the Pico dev board adds the following to the microcontroller:
+1. Flash memory (2MB)
+2. Crystal oscillator for timing
+3. Power supply system (3.3V from 1.8V-5.5V input)
+4. USB to micro-USB connector
+5. LEDs, resistors, breadboard, Buttons</p>
+<h3 id="software_1">Software<a class="headerlink" href="#software_1" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Editor (Cursor)</li>
+<li>Terminal</li>
+<li>Rust library: elf2uf2</li>
+<li>Claude Code for ascii diagrams and such</li>
+</ol>
+<hr />
+<h1 id="process-and-methodology">Process and methodology<a class="headerlink" href="#process-and-methodology" title="Permanent link">&para;</a></h1>
+<blockquote>
+<p>Describe step-by-step what the group did. Include sketches, screenshots, or videos if possible.
+</p>
+</blockquote>
+<h2 id="1-ger-esp32-c3-arduino-ide_1">1. Ger: ESP32-C3 + Arduino IDE<a class="headerlink" href="#1-ger-esp32-c3-arduino-ide_1" title="Permanent link">&para;</a></h2>
+<h3 id="basic-workflow">Basic Workflow<a class="headerlink" href="#basic-workflow" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Install <strong>Arduino IDE</strong>.</li>
+<li>Try install <strong>ESP32 Board</strong>&hellip; first install <strong>Board Package Repository</strong>.</li>
+<li>Fails on Timeout&hellip;(See <a href="#fix-2-extend-board-manager-timeout">Fix 2</a>)<ol>
+<li>Install <code>Arduino-CLI</code>,</li>
+<li>Edit YAML preferences,</li>
+<li>Retry install <strong>Board Package Repository</strong>.</li>
+</ol>
+</li>
+<li>Install Board Package, and select port and Board (<strong>XIAO_ESP32C3</strong> in this case)</li>
+<li>Use sample code from <a href="https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started/#run-your-first-blink-program">Wiki</a> (a number of changes, incl. GPIO)</li>
+</ol>
+<p>I have used </p>
+<h3 id="fix-1-different-chip-driver">Fix 1: Different Chip Driver?<a class="headerlink" href="#fix-1-different-chip-driver" title="Permanent link">&para;</a></h3>
+<p>Download and install the <code>CH340G</code> driver.</p>
+<p>Followed <a href="https://wiki.dfrobot.com/#Tutorial">this tutorial</a> (from the DFRobot wiki) or <a href="https://sparks.gogo.co.nz/ch340.html">this tutorial</a> (from SparkFun, more general), downloaded and installed the driver.</p>
+<h3 id="fix-2-different-board-definitions">Fix 2: Different Board Definitions<a class="headerlink" href="#fix-2-different-board-definitions" title="Permanent link">&para;</a></h3>
+<p>Use generic ESP32 board definitions. <code>ESP32 Dev Module</code> or the one from Espressif should be fine.</p>
+<h3 id="fix-3-use-platformio-instead">Fix 3: Use Platformio instead<a class="headerlink" href="#fix-3-use-platformio-instead" title="Permanent link">&para;</a></h3>
+<p>Probably would work, but didn&rsquo;t try it this time. Using this workflow probably avoids the issue with the Arduino IDE workflow.</p>
+<p>PlatformIO is an alternative <em>development environment</em> for microcontrollers that is more recent. It is more advanced, but may be more likely to get your ESP32 board working. PlatformIO runs inside VS Code and works on macOS, Windows, and Linux. Try this <a href="https://youtu.be/WxELHnnlBmU">10 minute tutorial</a> and <a href="https://youtu.be/xrAgUXFdrs8">easier 4 min tutorial</a></p>
+<h3 id="fix-4-extend-the-timeout-to-allow-the-download-more-time-to-complete">Fix 4: Extend the timeout to allow the download more time to complete.<a class="headerlink" href="#fix-4-extend-the-timeout-to-allow-the-download-more-time-to-complete" title="Permanent link">&para;</a></h3>
+<p>Described more in my <a href="https://fabacademy.org/2026/labs/creativespark/students/gerard-walsh/assignments/week4/#fix-2-extend-board-manager-timeout">individual write-up</a></p>
+<blockquote>
+<p>The Custom Boards package is hosted on a CDN that wasn&rsquo;t fast enough. The default timeout seems to be <code>300s</code>. Based on <a href="https://forum.arduino.cc/t/downloading-esp32-3-3-5-fails/1420739/7">this post</a> by user <a href="https://forum.arduino.cc/u/ptillisch">@ptillisch</a>, it describes how to extend the timeout and allow more time to complete.</p>
+</blockquote>
+<hr />
+<h2 id="2-shaaz-rust-on-pico-rp2040-with-cursor-el2uf2-rs_1">2. Shaaz: Rust on Pico RP2040 with Cursor &amp; el2uf2-rs<a class="headerlink" href="#2-shaaz-rust-on-pico-rp2040-with-cursor-el2uf2-rs_1" title="Permanent link">&para;</a></h2>
+<h3 id="workflow-overview">Workflow Overview<a class="headerlink" href="#workflow-overview" title="Permanent link">&para;</a></h3>
+<p>At a high-level, there are four steps:
+1. Write Rust code in IDE of choice
+2. Compile Rust code for RP2040
+3. Transfer the program binary onto the RP2040&rsquo;s flash memory
+4. Run it by booting the RP2040</p>
+<p>There&rsquo;s a lot of file format conversions that happen in this process. We show below how the output of each step is fed into the input of the next:</p>
+<div class="codehilite"><pre><span></span><code>(in IDE) write Rust code
+    ↓
+(output) .rs files
+    ↓
+(compile) run rustc / cargo build
+    ↓
+(output) ELF file (wraps ARM Cortex M0+ compatible binary)
+    ↓
+(convert) run elf2uf2-rs
+    ↓
+(output) UF2 file (compatible for USB copying)
+    ↓
+(in file explorer) drag-drop .uf2 to RP2040&#39;s drive
+    ↓
+(output) ROM bootloader writes program to flash
+    ↓
+(reboot) the Pico auto-reboots
+    ↓
+(output) program runs on RP2040
+</code></pre></div>
+
+<p>So effectively, we have the following steps:
+1. Compiling Rust for the RP2040 target, i.e. ARM Cortex-M0+ instructions wrapped in an ELF file
+2. Extract just the raw binary for the code from the ELF into UF2 so we can flash it directly:
+    1. the RP2040 can only execute raw bytes and expects code at certain memory addresses
+    2. However, we can&rsquo;t safely copy paste the raw binary via a USB drive because when you drag-and-drop a file onto a USB drive the OS does NOT guarantee:
+        1. <strong>Write order</strong> - Blocks might arrive out of sequence, OS might cache/buffer writes, multiple processes could access the drive simultaneously
+        2. <strong>Atomicity</strong> - Transfer might be interrupted midway
+    3. The UF2 format contains metadata for each line of instructions code about which memory address it&rsquo;s supposed to go to, so that the bootloader on the RP2040 can copy over the instructions to the correct memory location despite the disorderly USB copying.</p>
+<h3 id="rp2040-boot-sequence">RP2040 Boot Sequence<a class="headerlink" href="#rp2040-boot-sequence" title="Permanent link">&para;</a></h3>
+<p>From the datasheet, see the RP2040&rsquo;s boot sequence below. We can see two paths: the flash boot and the USB device boot.</p>
+<p><img alt="RP2040 boot sequence from datasheet" src="../../images/week04/shaaz-rp2040-boot-sequence.webp" /></p>
+<p>After hardware reset, both processor cores enter ROM at the same address. Processor 1 immediately goes to deep sleep (WFE with SCR.SLEEPDEEP enabled), while Processor 0 continues executing the bootrom. Processor 0 then works through a priority chain:</p>
+<ol>
+<li><strong>Rescue DP check</strong>: If the power-up event was from Rescue DP, halt immediately and wait for the debug host.</li>
+<li><strong>Watchdog boot check</strong>: If the watchdog scratch registers contain a magic number (<code>0xb007c0d3</code> in scratch 4), jump to pre-loaded code in SRAM. This allows users to divert away from the main boot sequence on non-POR resets.</li>
+<li><strong>BOOTSEL check</strong>: If the SPI CS pin is tied low (which is what the BOOTSEL button does on the Pico board), skip flash boot entirely and go straight to USB device boot.</li>
+<li><strong>Flash boot</strong>: Set up IO muxing on QSPI pins, issue an XIP exit sequence, copy 256 bytes from SPI flash to internal SRAM (SRAM5), and validate a CRC32 checksum. If the checksum passes, execute this &ldquo;flash second stage&rdquo; which configures the SSI and flash for proper XIP execution.</li>
+<li><strong>USB device boot fallback</strong>: If no valid flash image is found after ~0.5 seconds (~128 attempts at ~4ms each), fall back to USB device boot.</li>
+</ol>
+<h3 id="firmware-storage-flash-vs-sram">Firmware Storage: Flash vs SRAM<a class="headerlink" href="#firmware-storage-flash-vs-sram" title="Permanent link">&para;</a></h3>
+<p>For #3 (transfer), there are a few options. The RP2040 can run programs from one of two destinations:
+1. <strong>Flash memory</strong> (program persisted permanently, executed via XIP after the flash second stage configures it)
+2. <strong>SRAM</strong> (program persisted temporarily, gets erased on power cycling — used by the watchdog boot path and the USB device boot&rsquo;s direct-to-SRAM loading)</p>
+<p>We&rsquo;ll focus on the flash memory route only: the SRAM route has its uses, but it&rsquo;s out of scope for now.</p>
+<h3 id="firmware-transfer-interfaces-usb-vs-swd">Firmware transfer interfaces: USB vs SWD<a class="headerlink" href="#firmware-transfer-interfaces-usb-vs-swd" title="Permanent link">&para;</a></h3>
+<p>There are two primary interfaces to get the code into flash memory:
+1. USB
+2. SWD (Serial Wire Debug)</p>
+<p>We&rsquo;ll use USB, but let&rsquo;s take a quick look at SWD.</p>
+<h4 id="a-swd">a. SWD<a class="headerlink" href="#a-swd" title="Permanent link">&para;</a></h4>
+<p>The SWD is a hardware interface built into the ARM Cortex-M0+ and works even when the chip is bricked or the flash is blank or corrupted. We do not use it because it requires an extra microcontroller running special firmware, e.g. the Raspberry Pi Debug Probe ($12).</p>
+<div class="codehilite"><pre><span></span><code>Pico H                Debug Probe
+   ┌─────────┐          ┌──────────┐
+   │ SWCLK   │◄────────►│ SWCLK    │
+   │ SWDIO   │◄────────►│ SWDIO    │
+   │ GND     │──────────│ GND      │
+   └─────────┘          └──────────┘
+                             │
+                         USB to PC
+</code></pre></div>
+
+<h4 id="b-usb">b. USB<a class="headerlink" href="#b-usb" title="Permanent link">&para;</a></h4>
+<p>To use USB, we must press and hold the BOOTSEL button while booting the RP2040 on the Pico. The BOOTSEL button ties the SPI CS pin low, which tells the bootrom to skip the flash boot path entirely and jump straight to USB device boot. (The chip always boots from ROM regardless — BOOTSEL just makes the bootrom skip the flash-checking stage.)</p>
+<p><img alt="BOOTSEL button on the Pico" src="../../images/week04/shaaz-rp2040-bootsel.webp" /></p>
+<div class="codehilite"><pre><span></span><code>Power on / Reset
+    ↓
+Processor 0 checks: Watchdog scratch registers set?
+    ├─ YES ──→ Jump to pre-loaded code in SRAM
+    ↓ NO
+Processor 0 checks: Is SPI CS pin tied low (BOOTSEL)?
+    ├─ YES ──→ Skip flash, go to USB device boot
+    ↓ NO
+Attempt flash boot (copy 256B from SPI → CRC32 check)
+    ├─ PASS ──→ Execute flash second stage
+    ↓ FAIL (after ~0.5s)
+Fall back to USB device boot
+</code></pre></div>
+
+<h5 id="rom-bootloader-flash-drive-vs-picoboot">ROM Bootloader: flash drive vs picoboot<a class="headerlink" href="#rom-bootloader-flash-drive-vs-picoboot" title="Permanent link">&para;</a></h5>
+<p>This gets the ROM bootloader to run its USB device boot mode, which talks to the PC via two different USB interfaces:
+- <strong>USB flash drive</strong>:
+    - mechanism: the ROM bootloader appears as a USB Mass Storage Device to your PC
+    - user interface: copy over files to the drive. They have to be .uf2 files so it&rsquo;s safe to copy them over.
+- <strong>USB <code>picoboot</code> protocol</strong>:
+    - mechanism: the ROM bootloader implements a vendor-specific protocol for RPi, and exposes a second interface to your PC
+    - user interface: use the <code>picotool</code> cli program to write the program directly to flash memory</p>
+<h3 id="workflow-options-diagram">Workflow options diagram<a class="headerlink" href="#workflow-options-diagram" title="Permanent link">&para;</a></h3>
+<p>To summarize our options with a diagram:</p>
+<div class="codehilite"><pre><span></span><code>┌─────────────────────────────────────────────────────────┐
+│                    YOUR COMPUTER                        │
+│                                                         │
+│  File Manager     picotool         probe-rs            │
+│       │               │                 │              │
+│       │ (drag)        │ (USB cmd)       │ (SWD proto)  │
+│       ↓               ↓                 ↓              │
+└───────┼───────────────┼─────────────────┼──────────────┘
+        │               │                 │
+        │  USB Cable    │  USB Cable      │  USB Cable
+        ↓               ↓                 ↓
+    ┌───────────────────────────┐    ┌──────────────┐
+    │   RP2040 ROM BOOTLOADER   │    │ Debug Probe  │
+    │   (BOOTSEL mode)          │    │              │
+    │                           │    └──────┬───────┘
+    │  ┌──────────┐             │           │
+    │  │ USB Mass │             │           │ 3 wires (SWD)
+    │  │ Storage  │             │           ↓
+    │  └──────────┘             │    ┌──────────────┐
+    │  ┌──────────┐             │    │ RP2040       │
+    │  │ PICOBOOT │             │    │ Debug Access │
+    │  │ Protocol │             │    │ Port (DAP)   │
+    │  └──────────┘             │    └──────┬───────┘
+    └────────┬──────────────────┘           │
+             │                              │
+             ↓                              ↓
+        ┌────────────────────────────────────────┐
+        │    Flash Memory (0x10000000)           │
+        │    [Your Program Code Here]            │
+        └────────────────────────────────────────┘
+</code></pre></div>
+
+<h3 id="my-final-choice">My final choice<a class="headerlink" href="#my-final-choice" title="Permanent link">&para;</a></h3>
+<p>We&rsquo;ll choose File Manager drag-drop + ROM Bootloader via USB Mass Storage route.</p>
+<p>The Debug Probe seems the most time efficient path for regular iteration, but I&rsquo;m just curious how it all works underneath. Here&rsquo;s the high-level workflow:</p>
+<div class="codehilite"><pre><span></span><code>cargo build (build the Rust code)
+    ↓
+ELF file (has everything - code, symbols, debug info)
+    ↓
+elf2uf2-rs extracts just the code + data
+    ↓
+UF2 file (just the raw bytes to flash in a USB-friendly format)
+    ↓
+Bootloader writes to flash memory
+</code></pre></div>
+
+<h3 id="diving-deeper-cursor-ide-rust-elf2uf2-rs-usb-flash-drive-mode">Diving deeper: Cursor IDE + Rust + elf2uf2-rs + USB flash drive mode<a class="headerlink" href="#diving-deeper-cursor-ide-rust-elf2uf2-rs-usb-flash-drive-mode" title="Permanent link">&para;</a></h3>
+<h4 id="1-ide-cursor-vscode">1. IDE: Cursor / VSCode<a class="headerlink" href="#1-ide-cursor-vscode" title="Permanent link">&para;</a></h4>
+<p>I decided to use my usual editor Cursor, which is a fork of the open-source VSCode with some AI integration in the interface. As you can see I have the file explorer in the left column, and I split my main panel horizontally to have access to the terminal via my go-to shell <code>zsh</code> and the code on the top.</p>
+<p><img alt="Cursor IDE with terminal and code panels" src="../../images/week04/shaaz-cursor-ide.webp" /></p>
+<p>It was already installed, but easy to setup via https://cursor.com/download.</p>
+<h4 id="2-programming-language-rust">2. Programming Language: Rust<a class="headerlink" href="#2-programming-language-rust" title="Permanent link">&para;</a></h4>
+<p>I decided it to try and run the Rust programming language on the RPi. I&rsquo;ve used Rust at work, so I have experience with the language. <strong>Rust:</strong>
+- is a <strong>compiled</strong> language, i.e. you don&rsquo;t need an interpreter to run it (like Python or JS), so it&rsquo;s a program that converts to hardware instructions using a compiler and this doesn&rsquo;t need another running program to run it.
+- <strong>has no garbage-collector</strong>, i.e. memory is not automatically managed at runtime (i.e. unlike Python/JS/Go but like C++, C)
+- introduces <strong>memory safety</strong> paradigms at compile time, innovative for a non-GC&rsquo;d language, i.e. it ensures all references point to valid memory if there are no compile errors (subject to using only safe primitives). This prevents common errors like:
+    - the C-style &lsquo;segmentation fault&rsquo; errors for accessing invalid memory (hard to debug)
+    - memory leaks or logic errors due to invalid memory access
+- influenced by <strong>functional programming</strong> paradigms that I value: immutability, higher-order functions, ADTs (abstractions that are rare for systems programming languages)</p>
+<p>I used Rust in a previous job while building a cloud compute platform where users explicitly paid for RAM allocated for their programs (e.g. AWS Lambda). We had to run orchestration software with predictable memory overheads without the safety concerns of C and the tail-latency spikes of garbage-collected languages like Go and Java.</p>
+<h5 id="1-sample-rust-program-mainrs-file">1. Sample Rust program (main.rs file()<a class="headerlink" href="#1-sample-rust-program-mainrs-file" title="Permanent link">&para;</a></h5>
+<p>Here&rsquo;s a basic Rust hello world:</p>
+<div class="codehilite"><pre><span></span><code><span class="k">fn</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="fm">println!</span><span class="p">(</span><span class="s">&quot;Hello world!&quot;</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<h5 id="2-rust-setup">2. Rust Setup<a class="headerlink" href="#2-rust-setup" title="Permanent link">&para;</a></h5>
+<p>For minimal setup, you need to install the compiler <code>rustc</code>.</p>
+<p>We&rsquo;ll use the <code>rustup</code> installer which installs a whole set of associated things (such as the cargo package manager), by following https://rust-lang.org/tools/install/</p>
+<div class="codehilite"><pre><span></span><code>curl<span class="w"> </span>--proto<span class="w"> </span><span class="s1">&#39;=https&#39;</span><span class="w"> </span>--tlsv1.2<span class="w"> </span>-sSf<span class="w"> </span>https://sh.rustup.rs<span class="w"> </span><span class="p">|</span><span class="w"> </span>sh
+rustup<span class="w"> </span>update
+</code></pre></div>
+
+<p>To verify, run the following commands:</p>
+<div class="codehilite"><pre><span></span><code>➜  embedded-programming-week3 git:(main) ✗ rustc --version
+rustc 1.86.0 (05f9846f8 2025-03-31)
+</code></pre></div>
+
+<h5 id="3-compiling-sample-program-mainrs">3. Compiling sample program main.rs<a class="headerlink" href="#3-compiling-sample-program-mainrs" title="Permanent link">&para;</a></h5>
+<p>As you can see, running <code>rustc</code> with the <code>main.rs</code> file above as input generates a binary file called <code>main</code> with executable permissions (i.e. the <code>x</code> in <code>-rwxr-xr-x@</code>)</p>
+<div class="codehilite"><pre><span></span><code>➜  embedded-programming-week3 git:(main) ✗ ls
+main.rs
+➜  embedded-programming-week3 git:(main) ✗ rustc main.rs
+➜  embedded-programming-week3 git:(main) ✗ ls -lah
+total 944
+drwxr-xr-x   4 shaazahm  staff   128B Feb 15 15:13 .
+drwxr-xr-x@ 18 shaazahm  staff   576B Feb 15 14:51 ..
+-rwxr-xr-x@  1 shaazahm  staff   466K Feb 15 15:13 main
+-rw-r--r--   1 shaazahm  staff   501B Feb 15 15:08 main.rs
+</code></pre></div>
+
+<p>On Linux, this is an ELF file. For RP2040&rsquo;s architecture, we need to specify a target (shown later).</p>
+<div class="codehilite"><pre><span></span><code>rustc main.rs           # → Generates ELF on Linux
+                        # → Generates Mach-O on macOS
+                        # → Generates PE on Windows
+</code></pre></div>
+
+<h5 id="4-running-mainrs">4. Running main.rs<a class="headerlink" href="#4-running-mainrs" title="Permanent link">&para;</a></h5>
+<p>Just call the binary created from the terminal.</p>
+<div class="codehilite"><pre><span></span><code>➜  embedded-programming-week3 git:(main) ✗ ./main
+Hello world!
+</code></pre></div>
+
+<h5 id="5-compiling-for-the-rp2040">5. Compiling for the RP2040<a class="headerlink" href="#5-compiling-for-the-rp2040" title="Permanent link">&para;</a></h5>
+<p>To compile for embedded platforms, you have to specify special target parameters to the compiler:</p>
+<div class="codehilite"><pre><span></span><code># → Generates ARM Cortex-M0+ ELF (for RP2040)
+rustc main.rs --target thumbv6m-none-eabi
+</code></pre></div>
+
+<p>From https://doc.rust-lang.org/beta/rustc/platform-support/thumbv6m-none-eabi.html, we can see that it&rsquo;s the:</p>
+<div class="codehilite"><pre><span></span><code>Bare-metal target for CPUs in the Armv6-M architecture family, supporting a subset of the [T32 ISA].
+
+Processors in this family include the:
+
+- Arm Cortex-M0
+- Arm Cortex-M0+
+- Arm Cortex-M1
+</code></pre></div>
+
+<p>In practice we use the <code>cargo</code> package manager instead of <code>rustc</code> to build this target if we configure it right.</p>
+<h4 id="3-compiling-the-program-using-cargo">3. Compiling the program (using <code>cargo</code>)<a class="headerlink" href="#3-compiling-the-program-using-cargo" title="Permanent link">&para;</a></h4>
+<p>We will use the <code>cargo</code> package manager to configure <code>cargo</code> to build for the ARM Cortex-M0+ target.</p>
+<h5 id="step-1-verify-cargo-is-installed">Step 1: Verify <code>cargo</code> is installed<a class="headerlink" href="#step-1-verify-cargo-is-installed" title="Permanent link">&para;</a></h5>
+<p>We use the <code>cargo</code> package manager to build our app for the ARM Cortex-M0+ target. We installed this earlier with <code>rustup</code>, verify it is correctly installed</p>
+<div class="codehilite"><pre><span></span><code>➜  embedded-programming-week3 git:(main) ✗ cargo --version
+cargo 1.86.0 (adf9b6ad1 2025-02-28)
+</code></pre></div>
+
+<h5 id="step-2-initialize-cargo-package">Step 2: Initialize <code>cargo</code> package<a class="headerlink" href="#step-2-initialize-cargo-package" title="Permanent link">&para;</a></h5>
+<p>From your project directory run:</p>
+<div class="codehilite"><pre><span></span><code>➜  embedded-programming-week3 git:(main) ✗ cargo init
+    Creating binary (application) package
+</code></pre></div>
+
+<p>This will create a <code>Cargo.toml</code> file where you can display your project dependencies, etc.</p>
+<div class="codehilite"><pre><span></span><code><span class="k">[package]</span>
+<span class="n">name</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;embedded-programming-week3&quot;</span>
+<span class="n">version</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;0.1.0&quot;</span>
+<span class="n">edition</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;2024&quot;</span>
+
+<span class="k">[dependencies]</span>
+
+<span class="k">[[bin]]</span>
+<span class="n">name</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;embedded-programming-week3&quot;</span>
+<span class="n">path</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;main.rs&quot;</span>
+</code></pre></div>
+
+<p>See available configurations here: https://doc.rust-lang.org/cargo/reference/manifest.html</p>
+<h5 id="step-3-configure-arm-cortex-m0-compilation-target">Step 3: Configure ARM-Cortex M0+ compilation target<a class="headerlink" href="#step-3-configure-arm-cortex-m0-compilation-target" title="Permanent link">&para;</a></h5>
+<p>Then install the ARM-Cortex M0+ specific target that will tell the compiler how to output the program binary for our RP2040:</p>
+<div class="codehilite"><pre><span></span><code>➜  embedded-programming-week3 git:(main) ✗ rustup target add thumbv6m-none-eabi
+info: downloading component &#39;rust-std&#39; for &#39;thumbv6m-none-eabi&#39;
+info: installing component &#39;rust-std&#39; for &#39;thumbv6m-none-eabi&#39;
+</code></pre></div>
+
+<p>Then, we initialize the <code>.cargo/config.toml</code> where configure some config for cargo itself that are not package-scoped (see all options <a href="https://doc.rust-lang.org/cargo/reference/config.html">here</a>):</p>
+<div class="codehilite"><pre><span></span><code>mkdir<span class="w"> </span>-p<span class="w"> </span>.cargo<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w">  </span>touch<span class="w"> </span>.cargo/config.toml
+</code></pre></div>
+
+<p>Update the config file so that the contents are as below, to configure our current repo to compile for the ARM Cortex M0+ target:</p>
+<div class="codehilite"><pre><span></span><code><span class="k">[build]</span>
+<span class="n">target</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;thumbv6m-none-eabi&quot;</span>
+</code></pre></div>
+
+<p>This sets the default target when you run <code>cargo build</code> to the architecture of the RP2040.</p>
+<h5 id="step-4-compile-attempt-1">Step 4: Compile (attempt #1)<a class="headerlink" href="#step-4-compile-attempt-1" title="Permanent link">&para;</a></h5>
+<p>Let&rsquo;s try build our Hello World program for the target:</p>
+<div class="codehilite"><pre><span></span><code>➜  embedded-programming-week3 git:(main) ✗ cargo build
+
+   Compiling embedded-programming-week3 v0.1.0 (/Users/shaazahm/workspace/hq-fabacademy/shaaz-ahmed/embedded-programming-week3)
+error[E0463]: can&#39;t find crate for `std`
+  |
+  = note: the `thumbv6m-none-eabi` target may not support the standard library
+  = note: `std` is required by `embedded_programming_week3` because it does not declare `#![no_std]`
+
+error: cannot find macro `println` in this scope
+ --&gt; main.rs:2:5
+  |
+2 |     println!(&quot;Hello world!&quot;);
+  |     ^^^^^^^
+
+error: `#[panic_handler]` function required, but not found
+
+error: requires `sized` lang_item
+
+For more information about this error, try `rustc --explain E0463`.
+error: could not compile `embedded-programming-week3` (bin &quot;embedded-programming-week3&quot;) due to 4 previous errors
+</code></pre></div>
+
+<p>Whoops, we get a compile error. What&rsquo;s happening here is that the <code>thumbv6m-none-eabi</code> target is a bare-metal embedded target without an operating system, so it doesn&rsquo;t support the standard library functions such as <code>println!</code></p>
+<h5 id="step-5-adapting-code-for-rp2040-target">Step 5: Adapting code for RP2040 target<a class="headerlink" href="#step-5-adapting-code-for-rp2040-target" title="Permanent link">&para;</a></h5>
+<p>We need to do a few things:
+1. Add <code>#![no_std]</code> to the top of <code>main.rs</code> to use Rust without the stdlib
+2. Tell Rust we&rsquo;re bringing our own <code>main()</code> entry point (because main requires the stdlib):
+    1. Adding <code>#![no_main]</code> to the top of <code>main.rs</code>
+    2. Adding <code>#[entry]</code> above the <code>main()</code> to tell Rust that we&rsquo;ll bring our own entry point
+3. Add required dependencies (packages or &lsquo;crates&rsquo;):
+    1. <code>cortex-m-rt</code>:  Startup code and minimal runtime for Cortex-M microcontrollers. See documentation in https://docs.rs/cortex-m-rt/latest/cortex_m_rt/
+    2. <code>panic-halt</code> which halts the program on exception. Other options include panic-abort (reset the RP2040), panic-semihosting (print via debug probe), panic-rtt (print via rtt)
+    3. <code>cortex-m</code> : for low-level access to Cortex-M processors, just for our example code
+4. Update <code>main()</code> function: embedded programs are usually written to run forever
+    1. update signature of entry point: <code>fn main() -&gt; ! {</code>  (i.e. never returns)
+    2. have a loop forever or until some termination condition <code>loop {}</code></p>
+<p><strong>Updated program:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="cp">#![no_std]</span>
+<span class="cp">#![no_main]</span>
+
+<span class="k">use</span><span class="w"> </span><span class="n">cortex_m_rt</span><span class="p">::</span><span class="n">entry</span><span class="p">;</span>
+<span class="k">use</span><span class="w"> </span><span class="n">panic_halt</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="n">_</span><span class="p">;</span><span class="w"> </span><span class="c1">// Panic handler</span>
+
+<span class="cp">#[entry]</span>
+<span class="k">fn</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">-&gt;</span><span class="w"> </span><span class="o">!</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="c1">// e.g.</span>
+<span class="w">    </span><span class="k">loop</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="c1">// Delay for approximately 1 million CPU cycles</span>
+<span class="w">        </span><span class="n">cortex_m</span><span class="p">::</span><span class="n">asm</span><span class="p">::</span><span class="n">delay</span><span class="p">(</span><span class="mi">1_000_000</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<p>To write a meaningful program, we need to add more dependencies, which we&rsquo;ll explore in the individual assignment.</p>
+<p><strong>Install dependencies:</strong></p>
+<div class="codehilite"><pre><span></span><code>cargo<span class="w"> </span>add<span class="w"> </span>cortex-m-rt
+cargo<span class="w"> </span>add<span class="w"> </span>panic-halt
+cargo<span class="w"> </span>add<span class="w"> </span>cortex-m
+</code></pre></div>
+
+<p>If you view the Cargo.toml file, you will see the new dependencies:</p>
+<div class="codehilite"><pre><span></span><code><span class="k">[package]</span>
+<span class="n">name</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;embedded-programming-week3&quot;</span>
+<span class="n">version</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;0.1.0&quot;</span>
+<span class="n">edition</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;2024&quot;</span>
+
+<span class="k">[dependencies]</span>
+<span class="n">cortex-m</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;0.7.7&quot;</span>
+<span class="n">cortex-m-rt</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;0.7.5&quot;</span>
+<span class="n">panic-halt</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;1.0.0&quot;</span>
+
+<span class="k">[[bin]]</span>
+<span class="n">name</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;embedded-programming-week3&quot;</span>
+<span class="n">path</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;main.rs&quot;</span>
+</code></pre></div>
+
+<h5 id="step-6-compile-attempt-2">Step 6: Compile (attempt #2)<a class="headerlink" href="#step-6-compile-attempt-2" title="Permanent link">&para;</a></h5>
+<p>Now, let&rsquo;s compile the program.</p>
+<div class="codehilite"><pre><span></span><code>➜  embedded-programming-week3 git:(main) ✗ cargo build
+  Downloaded rustc_version v0.2.3
+  Downloaded vcell v0.1.3
+  Downloaded void v1.0.2
+  Downloaded semver v0.9.0
+  Downloaded volatile-register v0.2.2
+  Downloaded semver-parser v0.7.0
+  Downloaded nb v0.1.3
+  Downloaded bare-metal v0.2.5
+  Downloaded nb v1.1.0
+  Downloaded bitfield v0.13.2
+  Downloaded embedded-hal v0.2.7
+  Downloaded cortex-m v0.7.7
+  Downloaded 12 crates (276.4 KB) in 0.12s
+   Compiling semver-parser v0.7.0
+   Compiling nb v1.1.0
+   Compiling void v1.0.2
+   Compiling cortex-m v0.7.7
+   Compiling vcell v0.1.3
+   Compiling bitfield v0.13.2
+   Compiling volatile-register v0.2.2
+   Compiling nb v0.1.3
+   Compiling embedded-hal v0.2.7
+   Compiling semver v0.9.0
+   Compiling rustc_version v0.2.3
+   Compiling bare-metal v0.2.5
+   Compiling embedded-programming-week3 v0.1.0 (/Users/shaazahm/workspace/hq-fabacademy/shaaz-ahmed/embedded-programming-week3)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 2.29s
+</code></pre></div>
+
+<h5 id="step-7-testing-the-program">Step 7: Testing the program<a class="headerlink" href="#step-7-testing-the-program" title="Permanent link">&para;</a></h5>
+<p>This turned out to be tricky. The binary we compiled for the RP2040 won&rsquo;t obviously work on the Mac. And we can&rsquo;t compile for the Mac because the programs are written differently for bare-metal microcontrollers.</p>
+<p>Options for testing:
+1. Run the program directly on the hardware: straightforward, preferred in this ecosystem
+2. Unit tests to test the logic of the program: it doesn&rsquo;t give full confidence, but Rust has traits, i.e. interfaces, and we could mock out the traits for the RP2040 HAL (hardware abstraction layer)
+3. Emulate RP2040. There are programs out there that emulate different hardware architectures, listed below. However, someone noted: &ldquo;emulators have very limited value for MCU work since almost all of the work is related to peripherals and pins&rdquo;. Some emulators:
+    1. QEMU: can emulate some ARM Cortex-M processors, but <strong>RP2040 is unsupported</strong>.
+    2. Renode: RP2040 support is marked work-in-progress and frozen, see https://github.com/matgla/Renode_RP2040
+    3. <strong>Wokwi</strong> (nice!): a browser based emulator that supports RP2040, but Rust compilation is only supported via the VSCode Extension: https://docs.wokwi.com/vscode/getting-started</p>
+<h4 id="4-transferring-program-to-flash-memory">4. Transferring program to flash memory<a class="headerlink" href="#4-transferring-program-to-flash-memory" title="Permanent link">&para;</a></h4>
+<p>Now that in step 6 we compiled the program for the RP2040 target, to run the program on the RP2040, we have to write it to the Pico flash memory. We will explore two ways to do this.</p>
+<h5 id="option-1-using-picotool">Option 1: using <code>picotool</code><a class="headerlink" href="#option-1-using-picotool" title="Permanent link">&para;</a></h5>
+<p>The most straightforward.</p>
+<div class="codehilite"><pre><span></span><code><span class="c1"># Build the code</span>
+cargo<span class="w"> </span>build<span class="w"> </span>--release
+
+<span class="c1"># Flash directly (no file format conversion needed!)</span>
+picotool<span class="w"> </span>load<span class="w"> </span>target/thumbv6m-none-eabi/release/embedded-programming-week3
+
+<span class="c1"># Can even reboot into BOOTSEL programmatically</span>
+picotool<span class="w"> </span>reboot<span class="w"> </span>-f<span class="w"> </span>-u<span class="w">  </span><span class="c1"># Force reboot into USB mode</span>
+</code></pre></div>
+
+<h5 id="option-2-using-elf2uf2-rs-and-copy-into-usb-drive">Option 2: using elf2uf2-rs and copy into USB drive<a class="headerlink" href="#option-2-using-elf2uf2-rs-and-copy-into-usb-drive" title="Permanent link">&para;</a></h5>
+<p>We will configure <code>cargo</code> to use the <code>elf2uf2-rs</code> application to convert the built program&rsquo;s ELF file to UF2 format for copying over USB. Eventually running it all to convert and copy over the files, and the RP2040 will automatically reboot.</p>
+<h6 id="step-1-configure-cargo-to-use-elf2uf2-rs">Step 1: configure cargo to use <code>elf2uf2-rs</code><a class="headerlink" href="#step-1-configure-cargo-to-use-elf2uf2-rs" title="Permanent link">&para;</a></h6>
+<p>First we install the <code>elf2uf2-rs</code> tool that will convert the ELF file generated by the compiler into the UF2 file that we can use to copy over to the flash drive:</p>
+<div class="codehilite"><pre><span></span><code>cargo<span class="w"> </span>install<span class="w"> </span>elf2uf2-rs<span class="w"> </span>--locked
+</code></pre></div>
+
+<p>Update the <code>.cargo/config.toml</code> file so that the contents are as below:</p>
+<div class="codehilite"><pre><span></span><code><span class="k">[build]</span>
+<span class="n">target</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;thumbv6m-none-eabi&quot;</span>
+<span class="k">[target.thumbv6m-none-eabi]</span>
+<span class="n">runner</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;elf2uf2-rs -d&quot;</span>
+</code></pre></div>
+
+<h6 id="step-2-compiling-writing-program-to-flash-memory">Step 2: compiling &amp; writing program to flash memory<a class="headerlink" href="#step-2-compiling-writing-program-to-flash-memory" title="Permanent link">&para;</a></h6>
+<p>Then we boot the RP2040 into &ldquo;USB Bootloader mode&rdquo;, by rebooting whilst holding the &ldquo;BOOTSEL&rdquo; button (explained in previous section).</p>
+<p>Then we can just run with <code>cargo run</code>, which will compile the code and started the specified &lsquo;runner&rsquo; in <code>.cargo/config.toml</code>. As the &lsquo;runner&rsquo; is the <code>elf2uf2-rs</code> tool, it will build an ELF file, use the call the runner with ELF file which will convert it to UF2 file and copy it to the RP2040.</p>
+<h3 id="appendiix-file-formats">Appendiix: File Formats<a class="headerlink" href="#appendiix-file-formats" title="Permanent link">&para;</a></h3>
+<p><strong>ELF = Executable and Linkable Format</strong></p>
+<p>It&rsquo;s the ** executable file format<strong> on Unix/Linux systems (like <code>.exe</code> is for Windows). It&rsquo;s kind f like a </strong>container** that holds your compiled machine code plus metadata about how to load and run it.</p>
+<h4 id="whats-inside-an-elf-file">What&rsquo;s inside an ELF file:<a class="headerlink" href="#whats-inside-an-elf-file" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code>Prompt: &quot;draw a bare minimal ascii diagram of the parts of an ELF file for the RP2040 + Pico board, showing the different content it has apart from code&quot;
+┌─────────────────────────────────────┐
+│ ELF Header                          │  ← Magic number, architecture, entry point
+├─────────────────────────────────────┤
+│ Program Headers (segments)          │  ← How to load into RAM
+│   - .text segment (code)            │
+│   - .data segment (initialized data)│
+│   - .rodata (constants)             │
+│   - .bss (uninitialized data)       │
+├─────────────────────────────────────┤
+│ Section Headers (more detailed)     │  ← For linker/debugger
+│   - Symbol table                    │  ← Function names, variable names
+│   - Debug info (DWARF)              │  ← Line numbers, source mapping
+│   - Relocation info                 │  ← For dynamic linking
+└─────────────────────────────────────┘
+</code></pre></div>
+
+<h4 id="whats-inside-an-uf2-file">What&rsquo;s inside an UF2 file:<a class="headerlink" href="#whats-inside-an-uf2-file" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code>Prompt: &quot;draw a bare minimal ascii diagram of blokcs in a UF2 file indicating how they can stored metadata about order of programs to be flashed onto the RP2040&quot;
+# UF2 is a container format that wraps your binary
+┌──────────────────────────┐
+│ Block 0 (512 bytes)      │
+│  - Magic number          │
+│  - Target addr: 0x10000000│
+│  - 256 bytes of data     │
+│  - Checksum              │
+├──────────────────────────┤
+│ Block 1 (512 bytes)      │
+│  - Target addr: 0x10000100│
+│  - 256 bytes of data     │
+│  - Checksum              │
+├──────────────────────────┤
+│ ... more blocks ...      │
+└──────────────────────────┘
+</code></pre></div>
+
+<h4 id="what-the-raw-executable-file-for-rp2040-might-look-like">What the raw executable file for RP2040 might look like:<a class="headerlink" href="#what-the-raw-executable-file-for-rp2040-might-look-like" title="Permanent link">&para;</a></h4>
+<p>Example of RP2040 raw byte format:</p>
+<div class="codehilite"><pre><span></span><code>0x10000000 -&gt; Initial Stack Pointer (MSP)
+0x10000004 -&gt; Reset Handler (entry point)
+[...redacted...]
+0x1000003C -&gt; SysTick Handler
+0x10000040 -&gt; IRQ0 Handler (onward...)
+...
+0x100000FC -&gt; CRC32 checksum (last 4 bytes of 256-byte boot2)
+0x10000100 -&gt; User code begins (after boot2)
+</code></pre></div>
+
+<hr />
+<h1 id="group-conclusions">Group conclusions<a class="headerlink" href="#group-conclusions" title="Permanent link">&para;</a></h1>
+<blockquote>
+<p><strong>Findings:</strong> [What did you learn from the process?]
+</p>
+</blockquote>
+<h2 id="1-ger-esp32-c3-arduino-ide_2">1. Ger: ESP32-C3 + Arduino IDE<a class="headerlink" href="#1-ger-esp32-c3-arduino-ide_2" title="Permanent link">&para;</a></h2>
+<p>Learned about electronics and code. Used the Datasheet to learn the capabilities of the board, in particular, the functions of GPIO&rsquo;s on the board. The SoC board is a breakout of the functionality of the chips (ESP32 and RP2040). The board adds UART, voltage regulation, Analog-to-Digital conversion and digital inputs, and makes it very compatible for new users, and allows new users to use with breadboards and a number of other compatible shields (Grove and other expansion boards on the Seeed Studio website).</p>
+<p>Types of Pins:
+* Digital
+* Analogue
+* PWM
+* RXTX
+* POWER (eg VCC, 3v3, GND and AREF)
+* I2C, SPI, JTAG. Protocols for addressing peripherals, sensors, </p>
+<h2 id="2-shaaz-rust-on-pico-rp2040">2. Shaaz: Rust on Pico RP2040<a class="headerlink" href="#2-shaaz-rust-on-pico-rp2040" title="Permanent link">&para;</a></h2>
+<p>I finally managed to run Rust on the RP2040 on a Pico board. I used:
+- the Cursor IDE
+- compiled my programs using the Rust package manager cargo for the specific ARM target
+- converted the compiled program ELF file into UF2 format
+- copied the UF2 format into the Pico board&rsquo;s flash memory by simple drag-and-drop</p>
+<p>I wanted to run Rust on the RP2040, and this didn&rsquo;t seem to be supported by the standard IDEs like Arduino or Thonny. This meant that we have to do the things that these IDEs do a bit more manually, using the language ecosystem. Some learnings:
+1. The Rust standard library isn&rsquo;t available on the RP2040 because it doesn&rsquo;t have an operating system, so the programs look a bit different from what I&rsquo;m used to.
+2. Testing Rust programs written for the RP2040 without running it on real hardware is currently possible only with a third-party VSCode extension. This is because we compile for the RP2040 architecture, but there is no emulator support for that.
+3. The RP2040 can boot from SRAM (Watchdog boot) for debugging when bricked, or from flash memory (standard boot)
+4. There are three options to get programs into the flash memory: via the SWD debug interface or via two USB programs built into the ROM bootloader
+5. Picotool is the easiest, but if you buy the $4 RPi debug probe, that may provide a much better debugging experience.</p>
+<blockquote>
+<p><strong>Challenges:</strong> [What issues did you encounter?]</p>
+</blockquote>
+<ol>
+<li><strong>Ger:</strong> The boards library didn&rsquo;t load as expected.</li>
+<li><strong>Ger:</strong> Breadboard problems. Connections won&rsquo;t survive to much movement. Connections are unreliable, fail in way that is not visibly evident, which may interrupt more complex connections.</li>
+</ol>
+<blockquote>
+<p><strong>Solutions:</strong> [How did you solve them?]</p>
+</blockquote>
+<ol>
+<li><strong>Ger:</strong> Extended the IDE timeout to allow board manager to download from the host. Evaluated a number of different options. Installing CHG driver wasn&rsquo;t required, eventually had to extend to setting for IDE Timeout.</li>
+<li><strong>Ger:</strong> Will fix with custom PCB pad connections in <a href="#">Electronics Production</a>&hellip;</li>
+</ol>
+<hr />
+<h1 id="files">Files<a class="headerlink" href="#files" title="Permanent link">&para;</a></h1>
+<p>See below link to to files created this week:</p>
+<ul>
+<li><a href="../../files/week04/sketch_ger_feb17a.ino">sketch_ger_feb17a.ino</a></li>
+<li><a href="../../files/week04/sketch_ger_feb18a_sequence.ino">sketch_ger_feb18a_sequence.ino</a></li>
+</ul></p>
+    </article>
+</section>
+            <!-- endblock -->
+
+            <!-- block footer -->
+                <footer>
+    <div class="d-flex flex-sm-row justify-content-between py-2 border-top drac-text-black drac-bg-cyan-green">
+        <a href="https://github.com/dracula/mkdocs" target="_blank" style="padding-left: 1%;"
+            class="footer-text drac-anchor drac-text-black drac-text-purple--hover">
+            Made with Dracula Theme for MkDocs
+        </a>
+    </div>
+</footer>
+            <!-- endblock -->
+        </div>
+
+    </main>
+
+        <script>var base_url = '../..';</script>
+        <script src="../../assets/js/jquery-3.3.1.slim.min.js"></script>
+        <script src="../../assets/js/bootstrap.bundle.min.js"></script>
+        <script src="../../assets/js/mkdocs.js"></script>
+			<script src="../../search/main.js" defer></script>
+
+</body>
+
+</html>

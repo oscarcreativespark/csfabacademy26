@@ -36,7 +36,15 @@ Shaaz:
 > Describe step-by-step what the group did. Include sketches, screenshots, or videos if possible.
 > 
 
-Type here
+Then, in order to test, I could send an MQTT message from Terminal...
+
+```zsh
+Last login: Tue Apr  7 12:25:49 on ttys004
+➜  ~ mosquitto_pub -h mqtt.fabcloud.org -p 1883 \
+-t "fabacademy/creative-spark" \
+-u fabacademy -P fabacademy \
+-m "Hello from Ger"   
+```
 
 ---
 
