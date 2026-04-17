@@ -1,4 +1,4 @@
 .env
-_site
+site/
 .DS_Store
 *:Zone.Identifier
