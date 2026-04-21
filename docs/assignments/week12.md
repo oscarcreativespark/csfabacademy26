@@ -2,7 +2,7 @@
 
 This week I worked on defining my final project idea and started to getting used to the documentation process.
 
-![](../images/week03/w03-001.jpg){width="100%"}
+![type:video](../video/machine_week.mp4)
 
 ---
 
