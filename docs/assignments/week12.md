@@ -6,6 +6,10 @@ The banana split, a stepper powered spool rewinder made from salvaged parts!
 
 ![type:video](../video/machine_week.mp4)
 
+## Individual Assignments (Continued) {#individual-tests}
+
+- [Ger](https://fabacademy.org/2026/labs/creativespark/students/gerard-walsh/assignments/week12/)
+
 ---
 
 💡 Group assignment:
