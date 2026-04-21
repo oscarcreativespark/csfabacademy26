@@ -1,6 +1,8 @@
 # 12. Machine Week
 
-This week I worked on defining my final project idea and started to getting used to the documentation process.
+The banana split, a stepper powered spool rewinder made from salvaged parts!
+
+![](../images/machineweek_slide.jpeg){width="100%"}
 
 ![type:video](../video/machine_week.mp4)
 
