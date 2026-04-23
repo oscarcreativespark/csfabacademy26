@@ -326,13 +326,15 @@
 <li>Install Board Package, and select port and Board (<strong>XIAO_ESP32C3</strong> in this case)</li>
 <li>Use sample code from <a href="https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started/#run-your-first-blink-program">Wiki</a> (a number of changes, incl. GPIO)</li>
 </ol>
-<p>I have used </p>
+<p><img src="../../images/week04/arduino_blink.gif" alt="Arduino Blink Example" width="300px"></p>
+<p>This was a very basic project. A jungle of potential shorts and bad breadboard connections, but it works on the desk. See the sequence sketch in the <a href="#files">Files Section</a> below. It is a test of digital outputs, and inputs (still pending).</p>
+<p><img src="../../images/week04/arduino_short_jungle.jpg" alt="Arduino Short Jungle" width="800px"></p>
 <h3 id="fix-1-different-chip-driver">Fix 1: Different Chip Driver?<a class="headerlink" href="#fix-1-different-chip-driver" title="Permanent link">¶</a></h3>
 <p>Download and install the <code>CH340G</code> driver.</p>
 <p>Followed <a href="https://wiki.dfrobot.com/#Tutorial">this tutorial</a> (from the DFRobot wiki) or <a href="https://sparks.gogo.co.nz/ch340.html">this tutorial</a> (from SparkFun, more general), downloaded and installed the driver.</p>
 <h3 id="fix-2-different-board-definitions">Fix 2: Different Board Definitions<a class="headerlink" href="#fix-2-different-board-definitions" title="Permanent link">¶</a></h3>
 <p>Use generic ESP32 board definitions. <code>ESP32 Dev Module</code> or the one from Espressif should be fine.</p>
-<h3 id="fix-3-use-platformio-instead">Fix 3: Use Platformio instead<a class="headerlink" href="#fix-3-use-platformio-instead" title="Permanent link">¶</a></h3>
+<h3 id="fix-3-use-platformio-instead">Fix 3: Use Platformio instead?<a class="headerlink" href="#fix-3-use-platformio-instead" title="Permanent link">¶</a></h3>
 <p>Probably would work, but didn’t try it this time. Using this workflow probably avoids the issue with the Arduino IDE workflow.</p>
 <p>PlatformIO is an alternative <em>development environment</em> for microcontrollers that is more recent. It is more advanced, but may be more likely to get your ESP32 board working. PlatformIO runs inside VS Code and works on macOS, Windows, and Linux. Try this <a href="https://youtu.be/WxELHnnlBmU">10 minute tutorial</a> and <a href="https://youtu.be/xrAgUXFdrs8">easier 4 min tutorial</a></p>
 <h3 id="fix-4-extend-the-timeout-to-allow-the-download-more-time-to-complete">Fix 4: Extend the timeout to allow the download more time to complete.<a class="headerlink" href="#fix-4-extend-the-timeout-to-allow-the-download-more-time-to-complete" title="Permanent link">¶</a></h3>

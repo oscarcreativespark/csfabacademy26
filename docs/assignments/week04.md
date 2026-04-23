@@ -87,7 +87,11 @@ The headers and the debug interface pre-soldered make it convenient for prototyp
 4. Install Board Package, and select port and Board (**XIAO_ESP32C3** in this case)
 5. Use sample code from [Wiki](https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started/#run-your-first-blink-program) (a number of changes, incl. GPIO)
 
-I have used 
+<img src="../../images/week04/arduino_blink.gif" alt="Arduino Blink Example" width="300px">
+
+This was a very basic project. A jungle of potential shorts and bad breadboard connections, but it works on the desk. See the sequence sketch in the [Files Section](#files) below. It is a test of digital outputs, and inputs (still pending).
+
+<img src="../../images/week04/arduino_short_jungle.jpg" alt="Arduino Short Jungle" width="800px">
 
 ### Fix 1: Different Chip Driver?
 
@@ -99,7 +103,7 @@ Followed <a href="https://wiki.dfrobot.com/#Tutorial">this tutorial</a> (from th
 
 Use generic ESP32 board definitions. `ESP32 Dev Module` or the one from Espressif should be fine.
 
-### Fix 3: Use Platformio instead
+### Fix 3: Use Platformio instead?
 
 Probably would work, but didn't try it this time. Using this workflow probably avoids the issue with the Arduino IDE workflow.
 
